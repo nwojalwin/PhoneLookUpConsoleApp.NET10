@@ -104,7 +104,7 @@ public class PhoneBook
         Console.WriteLine("1 - Add contact");
         Console.WriteLine("2 - Display all contacts");
         Console.WriteLine("3 - Display contact by number");
-        Console.WriteLine("4 - Search contact number");
+        Console.WriteLine("4 - Search contact number by name");
         Console.WriteLine("x - Edit");
         var userInput = Console.ReadLine();
         var phoneBook = new PhoneBook("User", "");
@@ -146,3 +146,4 @@ public class PhoneBook
     }
 }
 #endregion
+
